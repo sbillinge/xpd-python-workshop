@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 # Adjust your Python configuration in such way that it can
-# be imported by "import xpdsayhello" by python process started
+# be imported by "import exsayhello" by python process started
 # in any directory.
 #
-# The "pydoc xpdsayhello" command should also work from any
+# The "pydoc exsayhello" command should also work from any
 # directory and print a description of this module and of
 # the defined functions.
 
