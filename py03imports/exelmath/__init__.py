@@ -13,6 +13,6 @@
 """
 
 # Exercise: import the solveQuadraticRoots function here so it can be
-# be imported directly from xpdelmath.
+# be imported directly from exelmath.
 
 # FIXME ... some import statement
