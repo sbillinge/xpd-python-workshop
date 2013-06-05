@@ -1,3 +1,5 @@
+Instructions for ex2
+
 exe1. import package by modifying .pth file
 
 1. Locate the python library directory by 'pydoc site'. You can find the directory in FILE or PREFIXS+'/lib/python2.x/site-packges
