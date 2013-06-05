@@ -1,0 +1,54 @@
+XPD Python Workshop
+
+List of work groups that collaborate on solving the exercise problems.
+The first exercise is to fill in this file and it will consist of the
+following steps:
+
+(1) Each participant fills in his name and commits to his own repository.
+
+(2) Attendees within the same group will then push/pull the changes among
+    their repositories (without accessing the Google Code repository) until
+    they fill in all names for their group and until "hg tip" shows the same
+    changeset identifier for everyone in the group.
+
+(3) One of the group members will push their text to the Google Code
+    repository.
+
+(4) Once finished, this file should contain list of all work groups.
+
+------------------------------------------------------------------------------
+Group 1
+
+
+------------------------------------------------------------------------------
+Group 2
+
+Arman
+Milinda
+
+
+------------------------------------------------------------------------------
+Group 3
+
+------------------------------------------------------------------------------
+Group 4
+
+Andrey Yakovenko
+Mark Lange
+
+------------------------------------------------------------------------------
+Group 5
+
+Ben Frandsen, Columbia University Billinge Group / Uemura Group
+Chenyang Shi, Columbia University Billinge Group
+
+------------------------------------------------------------------------------
+Group 6
+
+Xiaohao Yang
+
+------------------------------------------------------------------------------
+Group 7
+
+Simon Billinge
+Pavol Juhas

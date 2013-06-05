@@ -1,0 +1,28 @@
+exe1. import package by modifying .pth file
+
+1. Locate the python library directory by 'pydoc site'. You can find the directory in FILE or PREFIXS+'/lib/python2.x/site-packges
+2. create a new empty anyName.pth under that directory.
+3. Add the path of your py03import directory to the .pth file
+4. save and test if you can import the sayhello by "import ex1sayhello" or "from ex1sayhello import sayhello"
+
+exe1. (optional) import package by modifying sys.path or PYTHONPATH
+1. revert the changes to the .pth file (delete it or comment the path)
+2. try use sys.path.append(path of your directory) to add path to sys.path
+3. try change PYTHONPATH:
+   a) linux: edit .bashrc and add EXPORT PYTHONPATH=yourpath:$PYTHONPATH, then start a new terminal and test
+   b) windows: edit the PYTHONPATH in system variables (create it if not exists), then reboot and test
+
+exe2. import modulars in directory
+
+1. try 'from ex2math.quadraticroots import solveQuadraticRoots' and test
+2. start a new python shell and try 'from ex2math import solveQuadraticRoots'
+3. edit the __init__.py under exelmath
+3. start a new shell and try 'from exelmath import solveQuadraticRoots' again
+
+exe3. comments and docstrings
+
+1. find some code without good comments, docstrings. It is better to work on some your own code because you will actully know what code does.
+1. add your the code to the ex3codes with filename ex3_yourname.py, commit to repo
+2. edit your code, add docstring, comments, change the format, etc.
+3. commit your code to repo.
+4. review the comments and docstrings with your group members and leave commits on google code web page. 
