@@ -27,3 +27,10 @@ Group 2
 ------------------------------------------------------------------------------
 Group 3
 ...
+
+------------------------------------------------------------------------------
+Group 6
+
+Ben Frandsen, Columbia University Billinge Group / Uemura Group
+Chenyang Shi, Columbia University Billinge Group
+
