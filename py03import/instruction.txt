@@ -3,7 +3,7 @@ exe1. import package by modifying .pth file
 1. Locate the python library directory by 'pydoc site'. You can find the directory in FILE or PREFIXS+'/lib/python2.x/site-packges
 2. create a new empty anyName.pth under that directory.
 3. Add the path of your py03import directory to the .pth file
-4. save and test if you can import the sayhello by "import exsayhello" or "from exsayhello import sayhello"
+4. save and test if you can import the sayhello by "import ex1sayhello" or "from ex1sayhello import sayhello"
 
 exe1. (optional) import package by modifying sys.path or PYTHONPATH
 1. revert the changes to the .pth file (delete it or comment the path)
@@ -14,8 +14,8 @@ exe1. (optional) import package by modifying sys.path or PYTHONPATH
 
 exe2. import modulars in directory
 
-1. try 'from exelmath.quadraticroots import solveQuadraticRoots' and test
-2. start a new python shell and try 'from exelmath import solveQuadraticRoots'
+1. try 'from ex2math.quadraticroots import solveQuadraticRoots' and test
+2. start a new python shell and try 'from ex2math import solveQuadraticRoots'
 3. edit the __init__.py under exelmath
 3. start a new shell and try 'from exelmath import solveQuadraticRoots' again
 
