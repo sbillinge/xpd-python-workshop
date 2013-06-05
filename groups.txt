@@ -1,4 +1,3 @@
-<<<<<<< local
 XPD Python Workshop
 
 List of work groups that collaborate on solving the exercise problems.
@@ -20,7 +19,8 @@ following steps:
 ------------------------------------------------------------------------------
 Group 1
 
-Michael Saltzman Melissa
+Michael Saltzman 
+Melissa
 ------------------------------------------------------------------------------
 Group 2
 
