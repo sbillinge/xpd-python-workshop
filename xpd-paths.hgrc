@@ -1,6 +1,6 @@
 [paths]
 # The main repository at Google Code
-xpdmain = https://code.google.com/p/xpd-python-workshop/ 
+MAIN = https://code.google.com/p/xpd-python-workshop/ 
 
 # Personal Google Code clones
 ben = https://code.google.com/r/benfrandsen-xpd-workshop/
