@@ -5,7 +5,7 @@
 # (1) add parent directory to a pth file so that "import py04exceptunit" works.
 #
 # (2) execute in a terminal (or command prompt):
-#       python -m py04exceptunit.teststringchecks
+#       python -m py04exceptunit.tests.teststringchecks
 #     This will perform unit tests for this file.
 #
 # (3) Edit the marked part of this file and repeat step (2) until all
