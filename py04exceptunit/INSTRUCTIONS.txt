@@ -1,3 +1,5 @@
+Exceptions and Unit Tests
+
 Open exercise files in a text editor and follow the instructions inside:
 
     stringchecks.py
