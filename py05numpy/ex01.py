@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import numpy
+import numpy as np
 
 """
 ex1, load the save array using numpy
@@ -40,19 +41,19 @@ def task2():
     '''docstrings for task2
     '''
     # generate x,y,dy, you may generate your own x,y,dy
-    x = numpy.arange(0,10,0.01)
-    y = numpy.sin(x)
-    dy = numpy.random.random(len(x))
+    x = np.arange(0,10,0.01)
+    y = np.sin(x)
+    dy = np.random.random(len(x))
     
     # save x,y,dy into a 3 column data file
     return
 
 '''Task3, load and save the 2D array from a .npy data 
 
-You can also save/load ndarray using binary format .npy, which is only accessable by numpy
-The ex3.npy is a .npy file which contains a 100*100 array. You can use numpy.load
-to load the array from this file. Then do some process and save it in the save format
-using numpy.save .
+You can also save/load ndarray using binary format .npy, which is only
+accessable by numpy The ex3.npy is a .npy file which contains a 100*100 array.
+You can use numpy.load to load the array from this file. Then do some process
+and save it in the save format using numpy.save .
 '''
 
 def task3():
