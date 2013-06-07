@@ -1,0 +1,5 @@
+Open exercise files in a text editor and follow the instructions inside:
+
+    stringchecks.py
+    sumcol2.py
+    tests/teststringchecks.py
