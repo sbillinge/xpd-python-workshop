@@ -66,5 +66,5 @@ if __name__ == '__main__':
     print task4()
     print task5()
     print task6()
-    print task7()
+    print task7(task5(), task6())
     
