@@ -18,8 +18,7 @@
 # string arguments and observe what happens.
 # ----------------------------------------------------------------------------
 
-"Functions that check if string is convertible to another type.
-"
+"Functions that check if string is convertible to another type."
 
 
 def isint(s):
