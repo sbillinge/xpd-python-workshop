@@ -51,9 +51,9 @@ def task2(filename):
     x = np.arange(0,10,0.01)
     y = np.sin(x)
     dy = np.random.random(len(x))
-    # FIXME BELOW
-    data = [1]
     # save x,y,dy into a 3 column data file
+    # FIXME ... fix the data variable below
+    data = [1]
     np.savetxt(filename, data)
     return
 
