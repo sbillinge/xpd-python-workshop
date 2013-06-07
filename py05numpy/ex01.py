@@ -99,7 +99,7 @@ def main():
         
     task2('task2_out.txt')
     task2_data = np.loadtxt('task2_out.txt')
-    if task2_data.shape == (3, 1000):
+    if task2_data.shape == (1000, 3):
         print 'Task2 success!'
     else:
         print 'Please check the shape of the data in "task2_out.txt" file'
