@@ -10,7 +10,7 @@ Task1, load the 3 column data from a .txt file using numpy.loadtxt
 Task2, save 3 array into a 3 column format .txt file
 Task3, load and save the 2D array from a .npy data
 
-Please look up the online documents to find the usage of each functions.  
+Please look up the online documents to find the usage of each functions.
 """
 
 '''Task1, load the 3 column data from a .txt file using numpy.loadtxt
@@ -48,7 +48,7 @@ def task2():
     # save x,y,dy into a 3 column data file
     return
 
-'''Task3, load and save the 2D array from a .npy data 
+'''Task3, load and save the 2D array from a .npy data
 
 You can also save/load ndarray using binary format .npy, which is only
 accessable by numpy The ex3.npy is a .npy file which contains a 100*100 array.
@@ -63,15 +63,15 @@ def task3():
     
     #do some process, for example a = a*20
     
-    #save a to a file, ex3_1.npy for example, using numpy.save. 
+    #save a to a file, ex3_1.npy for example, using numpy.save.
     
     #load data in ex3_1.npy to a variable, b for example, using numpy.load
     
-    #test if b is equal to a by using 
-    #if (a==b):
-    #    print 'Great! a==b'
+    #test if b is equal to a by using
+    #if numpy.array_equal(a, b):
+    #    print 'Great! arrays a and b are equal!'
     #else:
-    #    print 'Oh, there is something wrong'
+    #    print 'Oh, there is something wrong, a and b differ.'
     
     return
 
@@ -83,16 +83,16 @@ def main():
     '''
     #check task1
     rv = task1()
-    if rv.shape==(3, 100):
+    if rv.shape == (3, 100):
         print 'Task1 success!'
     else:
         print 'Please check the shape of array returned in task1()'
         
     task2()
-    print 'Please open the .txt file you saved to check if it is right' 
+    print 'Please open the .txt file you saved to check if it is right'
     
     task3()
     return
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()
