@@ -90,7 +90,7 @@ def main():
     '''
     #check task1
     rv = task1()
-    if rv.shape == (3, 100):
+    if rv.shape == (3, 1000):
         print 'Task1 success!'
     else:
         print 'Please check the shape of array returned in task1()'
