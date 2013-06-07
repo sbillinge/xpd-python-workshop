@@ -44,15 +44,17 @@ To do so the actual array you saved should be in shape of [3,n]. You may use
 numpy.transpose() function. to transpose the 2D array.
 '''
 
-def task2():
+def task2(filename):
     '''docstrings for task2
     '''
     # generate x,y,dy, you may generate your own x,y,dy
     x = np.arange(0,10,0.01)
     y = np.sin(x)
     dy = np.random.random(len(x))
-    
+    # FIXME BELOW
+    data = [1]
     # save x,y,dy into a 3 column data file
+    np.savetxt(filename, data)
     return
 
 '''Task3, load and save the 2D array from a .npy data
@@ -95,8 +97,12 @@ def main():
     else:
         print 'Please check the shape of array returned in task1()'
         
-    task2()
-    print 'Please open the .txt file you saved to check if it is right'
+    task2('task2_out.txt')
+    task2_data = np.loadtxt('task2_out.txt')
+    if task2_data.shape == (3, 1000):
+        print 'Task2 success!'
+    else:
+        print 'Please check the shape of the data in "task2_out.txt" file'
     
     task3()
     return
