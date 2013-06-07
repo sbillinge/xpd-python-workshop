@@ -64,5 +64,5 @@ def main():
     plt.show()
     return
 
-if __name__=='__main__':
+if __name__ == '__main__':
     main()

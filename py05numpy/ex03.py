@@ -42,7 +42,7 @@ def task3(y):
     '''
     return
 
-if __name__=='__main__':
+if __name__ == '__main__':
     task1()
     task2()
     task3()
