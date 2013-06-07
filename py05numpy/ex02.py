@@ -59,7 +59,7 @@ def task7(x5, x6):
     return
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     print task1()
     print task2()
     print task3()
