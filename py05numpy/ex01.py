@@ -11,6 +11,9 @@ Task2, save 3 array into a 3 column format .txt file
 Task3, load and save the 2D array from a .npy data
 
 Please look up the online documents to find the usage of each functions.
+
+To run this functions, you can run this script in a terminal
+or you can import these functions to a python shell and run them.
 """
 
 '''Task1, load the 3 column data from a .txt file using numpy.loadtxt
@@ -18,8 +21,10 @@ Please look up the online documents to find the usage of each functions.
 The ex1.txt is a 3 column data file. Loading the data from it using
 numpy.loadtxt function and return a 2D array 'rv'. The shape of 2D array should
 be [3, n], where n is the length of the data. So you can access the x column by
-rv[x]. You may use transpose() function/method to transpose the 2d array, or
-unpack keywords in numpy.loadtxt function.
+rv[x]. 
+
+You may use transpose() function/method to transpose the 2d array, or unpack
+keywords in numpy.loadtxt function.
 '''
 def task1():
     '''docstrings for task1
@@ -33,8 +38,10 @@ def task1():
 Assume you finish your data process and want to save the results to a file. You
 have 3 array to save, which is x, y, and dy. The data file saved in disk should
 have 3 column format, i.e. x,y,dy in each line of the file and there are n lines
-in total. To do so the actual array you saved should be in shape of [3,n]. You
-may use numpy.transpose() function. to transpose the 2D array.
+in total. 
+
+To do so the actual array you saved should be in shape of [3,n]. You may use
+numpy.transpose() function. to transpose the 2D array.
 '''
 
 def task2():
