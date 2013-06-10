@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+#
+# INSTRUCTIONS:
+# 
+# (1) Implement the TextMessage class accordig to docstring specifications.
+
+
 class CellPhone(object):
     '''Simple cell phone that can ... FIXME
 
