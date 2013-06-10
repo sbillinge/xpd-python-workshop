@@ -9,14 +9,7 @@ __id__ = '$Id$'
 import os
 import unittest
 
-raise NotImplementedError("please update from the MAIN repo later")
-
-# useful variables
-thisfile = locals().get('__file__', 'file.py')
-tests_dir = os.path.dirname(os.path.abspath(thisfile))
-# testdata_dir = os.path.join(tests_dir, 'testdata')
-
-import smartphone
+from smartphone import SmartPhone
 
 ##############################################################################
 class TestSmartPhone(unittest.TestCase):
@@ -27,22 +20,34 @@ class TestSmartPhone(unittest.TestCase):
     def tearDown(self):
         return
 
-    def test_sendChat(self):
-        """check SmartPhone.sendChat()
-        """
+    def test___init__(self):
+        '''test instantiation of the SmartPhone().
+        '''
+        smphone = SmartPhone()
+        self.assertEqual('', smphone.owner)
+        sphjohn = SmartPhone('John')
+        self.assertEqual('John', sphjohn.owner)
         return
 
-    def test_receiveChat(self):
+    def xtest_sendChat(self):
+        """check SmartPhone.sendChat()
+        """
+        aphone = SmartPhone('A')
+        bphone = SmartPhone('B')
+        self.assertIsNone(sphone.sendChat(bphone, "hi from A"))
+        return
+
+    def xtest_receiveChat(self):
         """check SmartPhone.receiveChat()
         """
         return
 
-    def test_getChatHistory(self):
+    def xtest_getChatHistory(self):
         """check SmartPhone.getChatHistory()
         """
         return
 
-    def test_printChatHistory(self):
+    def xtest_printChatHistory(self):
         """check SmartPhone.printChatHistory()
         """
         return
