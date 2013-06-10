@@ -21,11 +21,11 @@ class SmartPhone(object):
     chat history with all other phones.
     '''
 
-    def sendChat(self, recipient, message):
+    def sendChat(self, recipient, msgtext):
         '''Send text message to another phone.
 
         recipient -- instance of another SmartPhone
-        message   -- an instance of the TextMessage class being sent
+        msgtext   -- string with a message text that is sent
 
         No Return value.
         Raise ValueError exception if recipient cannot receive chats.
