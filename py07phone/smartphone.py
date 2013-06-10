@@ -34,10 +34,9 @@ class SmartPhone(object):
         pass
 
 
-    def receiveChat(self, sender, message):
+    def receiveChat(self, message):
         '''Accept text message from another phone.
 
-        sender   -- instance of another SmartPhone
         message  -- an instance of the TextMessage class being received
 
         No Return value.
