@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#
+
 # INSTRUCTIONS:
 # 
 # (1) Implement the TextMessage class accordig to docstring specifications.
@@ -10,7 +10,7 @@ class CellPhone(object):
 
     Instance attributes:
 
-    owner -- name of the cell phone owner
+    owner -- string name of the cell phone owner
     '''
 
     def makeCall(self, other_phone):
