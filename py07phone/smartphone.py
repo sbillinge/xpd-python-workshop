@@ -57,7 +57,7 @@ class SmartPhone(object):
         pass
 
 
-    def printChatHistory(self, contactname):
+    def printChatHistory(self, other_phone):
         '''Print chat history with another SmartPhone.
 
         other_phone  -- instance of another SmartPhone
