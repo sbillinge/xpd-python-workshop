@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 
-# INSTRUCTIONS:
-#
-# (1) Plot ellipse with the main axes a=2, b=1.  Make sure the ellipse is
-#     drawn at correct aspect ratio.
-#
-# (2) Export the figure in EPS format to an ex02ellipse.eps file.
-#
-# HINT: Check documentation for matplotlib functions "axis" and "savefig".
-# ----------------------------------------------------------------------------
+"""\
+INSTRUCTIONS:
 
-"Plot of an ellipse rendered in correct scale."
+(1) Plot ellipse with the main axes a=2, b=1.  Make sure the ellipse is
+    drawn at correct aspect ratio.
+
+(2) Export the figure in EPS format to an ex02ellipse.eps file.
+
+HINT: Check documentation for matplotlib functions "axis" and "savefig".
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt
