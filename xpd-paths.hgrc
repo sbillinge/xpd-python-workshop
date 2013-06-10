@@ -1,0 +1,22 @@
+[paths]
+# The main repository at Google Code
+MAIN = https://code.google.com/p/xpd-python-workshop/ 
+
+# Personal Google Code clones
+andrey = https://code.google.com/r/xrayfm-xpd-worshop/
+arman = https://code.google.com/r/armanarkilic-xp-workshop/
+ben = https://code.google.com/r/benfrandsen-xpd-workshop/
+cheng = https://code.google.com/r/michachun-cpd-workshop/
+chenyang = https://code.google.com/r/curieshicy-xpd-python-workshop/
+cole = https://code.google.com/r/cdstephens0-xpd-workshop/
+john = https://code.google.com/r/johnsinsheimer-xpdworkshop/
+mark = https://code.google.com/r/mlange806-xpd-workshop/
+marks = https://code.google.com/r/mlange806-xpd-workshop/
+melissa = https://code.google.com/r/melissims-xpd-workshop/
+michael = https://code.google.com/r/mik854-xpd-workshop/
+milinda = https://code.google.com/r/milinda2004-xpd-xp-workshop/
+pavol = https://code.google.com/r/pavoljuhas-xpd-workshop/
+sameera = https://code.google.com/r/sameera2004-xpd-workshop/
+simon = https://code.google.com/r/simonbillinge-xpd-workshop/
+wei = https://code.google.com/r/celiatian-bootcamp/
+xiaohao = https://code.google.com/r/sodestiny1-xpd-workshop/
