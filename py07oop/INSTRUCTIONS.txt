@@ -1,4 +1,5 @@
 Work in your groups:
+(divide the tasks and use Mercurial to share your code)
 
 1) create a CellPhone class that has an owner and can make calls,
 as in the example
@@ -12,9 +13,21 @@ class can be updated
 4) create a functionality that different ringtones may be
 associated with different callers
 
-5) create a smartPhone class that extends CellPhone with a chat
+5) create a SmartPhone class that extends CellPhone with a chat
 feature
+
    phone a chats phone b
    phone b receives the chat and can read it
    phone b can reply to the chat
-   etc..
+   both phones can print out the chat history with a specified
+   caller.
+
+   For example, on phone A a call to a.chatHistory("B")
+
+   (A) - Hello B
+   (B) - Hello A
+   (A) - Can you review my code for the CellPhone class?
+   (B) - Sure, have you pushed it to the Google Code?
+   (A) - Ops, done.
+   (A) - Just pull from the changeset xxxxxxx.
+   (B) - Got it!
