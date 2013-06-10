@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 
-# INSTRUCTIONS:
-#
-# Create plot of the sine and cosine functions for over an x-interval
-# from -2*pi to 2*pi.  Add axes labels "x" for the x-axis and
-# "sin(x), cos(x)" for the y-axis.
-#
-# HINT: Run this script from  "ipython --pylab"  using  "%run ex01sincos.py"
-# ----------------------------------------------------------------------------
+'''\
+INSTRUCTIONS:
 
-"Example plot of sine and cosine functions."
+Create plot of the sine and cosine functions for over an x-interval
+from -2*pi to 2*pi.  Add axes labels "x" for the x-axis and
+"sin(x), cos(x)" for the y-axis.
+
+HINT: Run this script from  "ipython --pylab"  using  "%run ex01sincos.py"
+'''
+
 
 import numpy as np
 import matplotlib.pyplot as plt
