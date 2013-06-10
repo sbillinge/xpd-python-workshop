@@ -29,7 +29,7 @@ class TextMessage(object):
     def __str__(self):
         '''String representation of the text message formatted as:
 
-        sender_name: message text
+        (sender name) - message text
 
         Return string.
         '''
