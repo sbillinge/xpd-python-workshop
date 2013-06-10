@@ -3,18 +3,8 @@
 """Unit tests for smartphone.py
 """
 
-# version
-__id__ = '$Id$'
-
 import os
 import unittest
-
-raise NotImplementedError("please update from the MAIN repo later")
-
-# useful variables
-thisfile = locals().get('__file__', 'file.py')
-tests_dir = os.path.dirname(os.path.abspath(thisfile))
-# testdata_dir = os.path.join(tests_dir, 'testdata')
 
 import smartphone
 
@@ -49,7 +39,22 @@ class TestSmartPhone(unittest.TestCase):
 
 # End of class TestSmartPhone
 
-if __name__ == '__main__':
-    unittest.main()
+##############################################################################
 
-# End of file
+class _CaptureStdout(object):
+
+    output = None
+
+    def __enter__(self):
+        import sys
+        import cStringIO
+        self.save_stdout = sys.stdout
+        self.output = cStringIO.StringIO()
+        sys.stdout = self.output
+        return
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        sys.stdout = self.save_stdout
+
+    def __str__(self):
+        return '' if self.output is None else self.output.getvalue()
