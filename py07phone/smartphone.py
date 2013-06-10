@@ -1,14 +1,20 @@
 #!/usr/bin/env
 
-from cellphone import CellPhone
-from textmessage import TextMessage
-
 # INSTRUCTIONS:
 # 
 # (1) Change ONE line below so that SmartPhone has all the functionality
 #     of the cell phone.  
 #
 # (2) Extend the SmartPhone class with a chat feature.
+#     Execute included unit tests to check the SmartPhone code.
+#     Run the unit test from a shell with
+#
+#         python -m testsmartphone.py
+#
+# (2) Extend the SmartPhone class with a chat feature.
+
+from cellphone import CellPhone
+from textmessage import TextMessage
 
 class SmartPhone(object):
     '''SmartPhone is a CellPhone with a chat feature.  It can print
