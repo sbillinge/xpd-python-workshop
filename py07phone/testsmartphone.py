@@ -9,6 +9,8 @@ __id__ = '$Id$'
 import os
 import unittest
 
+raise NotImplementedError("please update from the MAIN repo later")
+
 # useful variables
 thisfile = locals().get('__file__', 'file.py')
 tests_dir = os.path.dirname(os.path.abspath(thisfile))
