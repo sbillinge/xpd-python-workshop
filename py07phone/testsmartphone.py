@@ -29,7 +29,6 @@ class TestSmartPhone(unittest.TestCase):
         self.assertEqual('', smphone.owner)
         sphjohn = SmartPhone('John')
         self.assertEqual('John', sphjohn.owner)
-        self.assertIsTrue('John', sphjohn.owner)
         return
 
     def test_sendChat(self):
@@ -37,7 +36,7 @@ class TestSmartPhone(unittest.TestCase):
         """
         aphone = SmartPhone('A')
         bphone = SmartPhone('B')
-        self.assertIsNone(sphone.sendChat(bphone, "hi from A"))
+        self.assertIsNone(aphone.sendChat(bphone, "hi from A"))
         dphone = CellPhone('D')
         self.assertRaises(ValueError, aphone.sendChat, dphone, "Hi D!")
         return
@@ -58,9 +57,9 @@ class TestSmartPhone(unittest.TestCase):
         a.sendChat(b, "A-->B 1")
         b.sendChat(a, "B-->A 1")
         a.sendChat(c, "A-->C 1")
-        self.assertEqual(2, a.getChatHistory(b))
+        self.assertEqual(2, len(a.getChatHistory(b)))
         self.assertEqual(a.getChatHistory(b), b.getChatHistory(a))
-        self.assertEqual(1, a.getChatHistory(c))
+        self.assertEqual(1, len(a.getChatHistory(c)))
         self.assertEqual(a.getChatHistory(c), c.getChatHistory(a))
         return
 
