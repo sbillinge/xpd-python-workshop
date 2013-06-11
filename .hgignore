@@ -1,5 +1,8 @@
 syntax:glob
 
 *.pyc
+*.DS_Store
 tags
 py05numpy/task2_out.txt
+py10packaging/ex02stringchecks/dist/*
+py10packaging/ex02stringchecks/MANIFEST
