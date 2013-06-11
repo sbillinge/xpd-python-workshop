@@ -17,5 +17,4 @@ setup(name='FIXME',
       author_email='FIXME',
       url='http://FIXME ... URL to this directory on your Google Code clone',
       packages=[],      # Python modules to be included in the distribution
-      data_files=[],    # non-python files to be included in the distribution
      )
