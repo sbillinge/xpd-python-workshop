@@ -5,7 +5,7 @@ Work Individually:
 
 (2) Create new Python virtual environment named "e1" and activate
     it by sourcing the "e1/bin/activate" from UNIX shell or by running
-    "e1\bin\activate.bat" in Windows.
+    "e1\scripts\activate.bat" in Windows.
 
 (3) Start python from a shell.  Verify it is the e1 python, by typing
 
