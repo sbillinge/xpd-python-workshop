@@ -13,6 +13,15 @@ class CellPhone(object):
     owner -- string name of the cell phone owner
     '''
 
+    def __init__(self, owner=''):
+        '''Initialize the SmartPhone object.
+
+        owner    -- optional string name of the phone owner
+        '''
+        # +++your code here+++
+        pass
+
+
     def makeCall(self, other_phone):
         '''This function will print "calling ... <recipient name>"
         '''
