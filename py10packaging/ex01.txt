@@ -1,0 +1,23 @@
+Work Individually:
+
+(1) If not installed yet, download and install the "pip" and "virtualenv"
+    Python packages from http://pypi.python.org/
+
+(2) Create new Python virtual environment named "e1" and activate
+    it by sourcing the "e1/bin/activate" from UNIX shell or by running
+    "e1\bin\activate.bat" in Windows.
+
+(3) Start python from a shell.  Verify it is the e1 python, by typing
+
+    >>> import sys
+    >>> print sys.executable
+
+(4) Use the "pip" command to install mercurial to the virtual environment e1
+
+(5) Test the installed mercurial by executing
+
+    $ e1/bin/hg version
+
+(6) Deactivate the e1 environment by running
+
+    $ deactivate
