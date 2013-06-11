@@ -21,6 +21,16 @@ class SmartPhone(object):
     chat history with all other phones.
     '''
 
+
+    def __init__(self, owner=''):
+        '''Initialize the SmartPhone object.
+
+        owner    -- optional string name of the phone owner
+        '''
+        # +++your code here+++
+        pass
+
+
     def sendChat(self, recipient, msgtext):
         '''Send text message to another phone.
 
