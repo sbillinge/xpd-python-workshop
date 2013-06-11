@@ -1,0 +1,23 @@
+Work Individually:
+
+(1) Go to the ex02stringchecks directory.
+    Use  "hg copy"  to copy there __init__.py, stringchecks.py and the
+    tests/ directory from the py04exceptunit exercise.
+
+(2) Edit the setup.py file to create python source code package named
+    "ex02stringcheks".  Edit the AUTHORS.txt file to contain your name.
+
+(3) Use "python setup.py sdist" command to create .tar.gz source code
+    bundle.  The bundle should include sources and also the AUTHORS.txt
+    and README.txt files.
+
+(4) Use virtualenv to create a virtual python environment e2.  Activate
+    this environment and install there ex02stringcheks.tar.gz using
+
+    pip install ex02stringcheks.tar.gz
+
+(5) With the e2 environment still active, execute
+
+    python -m ex02stringcheks.tests.teststringchecks
+
+    to perform unit tests and verify that installation is correct.
