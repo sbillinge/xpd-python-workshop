@@ -66,6 +66,19 @@ class TestSmartPhone(unittest.TestCase):
     def test_printChatHistory(self):
         """check SmartPhone.printChatHistory()
         """
+        a, b, c = self.spa, self.spb, self.spc
+        with _CaptureStdout() as out:
+            a.printChatHistory(b)
+        self.assertEqual('', str(out))
+        a.sendChat(b, "A to B")
+        b.sendChat(a, "B to A")
+        with _CaptureStdout() as oa:
+            a.printChatHistory(b)
+        with _CaptureStdout() as ob:
+            b.printChatHistory(a)
+        expected = '(A) - A to B\n(B) - B to A\n'
+        self.assertEqual(expected, str(oa))
+        self.assertEqual(expected, str(ob))
         return
 
 # End of class TestSmartPhone
@@ -74,21 +87,20 @@ class TestSmartPhone(unittest.TestCase):
 
 class _CaptureStdout(object):
 
-    output = None
-
     def __enter__(self):
         import sys
         import cStringIO
         self.save_stdout = sys.stdout
         self.output = cStringIO.StringIO()
         sys.stdout = self.output
-        return
+        return self
 
     def __exit__(self, exc_type, exc_value, traceback):
+        import sys
         sys.stdout = self.save_stdout
 
     def __str__(self):
-        return '' if self.output is None else self.output.getvalue()
+        return self.output.getvalue()
 
 ##############################################################################
 
